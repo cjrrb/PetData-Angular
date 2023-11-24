@@ -1,0 +1,14 @@
+* {
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.date {
+  font-weight: 100;
+  font-size: 35px;
+  transform: translateY(-70%);
+}

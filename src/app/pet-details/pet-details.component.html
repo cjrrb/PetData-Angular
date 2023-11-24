@@ -1,0 +1,15 @@
+<ng-container *ngIf="pet">
+  <div class="pet-container">
+    <h1 class="pet-name">{{pet.name}}</h1>
+
+    <div class="pet-details">
+      <img class="pet-image" [src]="pet.image" [alt]="pet.image">
+    </div>
+    <div class="pet-description">
+      {{pet.name}} is a {{pet.petKind}} and is {{pet.age}} years old.
+    </div>
+    <p>
+      <a routerLink="/" class="pet-link">Back to Pet List</a>
+    </p>
+  </div>
+</ng-container>

@@ -1,0 +1,39 @@
+.pet-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pet-image {
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+.pet-description {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.pet-link {
+  font-weight: 300;
+  font-size: 25px;
+  display: block;
+  margin: 20px auto;
+  text-decoration: none;
+  transition: font-weight 0.5s;
+}
+
+.pet-link:hover {
+  font-weight: 500;
+}
+
+.pet-name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+.pet-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pet-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pet-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.pet-cell {
+  padding: 10px;
+}
+
+.pet-image {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.pet-name {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.pet-info {
+  font-weight: 300;
+  font-size: 20px;
+}

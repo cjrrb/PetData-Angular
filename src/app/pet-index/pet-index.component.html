@@ -1,0 +1,16 @@
+<div class="pet-container">
+  <table class="pet-table">
+    <tr *ngFor="let p of pets" class="pet-row">
+      <td class="pet-cell">
+        <a [routerLink]="['/api/pets', p.id]" class="pet-link">
+          <img class="pet-image" [src]="p.image" [alt]="p.name">
+        </a>
+      </td>
+
+      <td class="pet-cell">
+        <span class="pet-name">{{p.name}}</span><br>
+        <span class="pet-info">{{p.name}} is a {{p.petKind}} and is {{p.age}} years old.</span>
+      </td>
+    </tr>
+  </table>
+</div>
